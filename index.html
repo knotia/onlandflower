@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>오늘 그리고 꽃</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>오늘 그리고 꽃</h1>
+    </header>
+    <div class="card-container" onclick="flipCard()">
+      <div class="card" id="card">
+        <div class="front">
+          <p>눌러서 오늘의 꽃을 만나보세요</p>
+        </div>
+        <div class="back" id="cardBack">
+          <!-- 랜덤 꽃 정보 -->
+        </div>
+      </div>
+    </div>
+    <button onclick="resetCard()">다시 뽑기</button>
+    <footer>
+      <p>ⓒ herein Lee | flower branding card</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
